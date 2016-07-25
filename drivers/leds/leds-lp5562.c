@@ -172,8 +172,8 @@ static struct leds_control {
 	u8	g;
 	u8	b;
 } ledc = {
-	.current_low = 5,
-	.current_high = 40,
+	.current_low = 120,
+	.current_high = 120,
 	.blink_retention = 350,
 	.blink_delay = 3250,
 	.blink_fading = true,

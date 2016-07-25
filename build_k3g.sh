@@ -3,12 +3,12 @@
 #!/bin/bash
 RDIR=$(pwd)
 # GCC
-export CROSS_COMPILE=/home/angelo/gcc-linaro-4.9/bin/arm-linux-gnueabi-
+export CROSS_COMPILE=/home/cnkzlyr/toolchain/arm-eabi-4.8/bin/arm-eabi-
 # Cleanup
 make clean && make mrproper
 # G900H Config
 make lineage_k3gxx_defconfig
 # Make zImage
-make ARCH=arm -j4
+make ARCH=arm -j8
 
 echo G900H Kernel Done
