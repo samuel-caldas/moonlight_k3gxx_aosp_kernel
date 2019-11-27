@@ -104,7 +104,7 @@ static struct ipa_config default_config;
 static struct ipa_config default_config = {
 	.control_temp = 81,
 	.temp_threshold = 30,
-	.enabled = 1,
+	.enabled = 0,
 	.tdp = 3500,
 	.boost = 1,
 	.ros_power = 500, /* rest of soc */
