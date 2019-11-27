@@ -3,7 +3,7 @@
 #!/bin/bash
 RDIR=$(pwd)
 # GCC
-export CROSS_COMPILE=/home/cnkzlyr/toolchain/arm-eabi-4.8/bin/arm-eabi-
+export CROSS_COMPILE=/home/cnkzlyr/arm-eabi-4.8/bin/arm-eabi-
 # Cleanup
 make clean && make mrproper
 # G900H Config
