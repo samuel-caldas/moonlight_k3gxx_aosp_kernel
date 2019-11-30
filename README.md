@@ -1,1 +1,3 @@
-kernel_samsung_k3gxx_mm
+moonLight Kernel by @cnkzlyr
+
+--------TeamExyKings--------
